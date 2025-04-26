@@ -16,19 +16,34 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
+  .header-perfil {
+    display: flex;
+    align-items: center;         
+    justify-content: space-between;
+    padding: 20px;
+  }
   .nombre {
+    font-family: 'Cinzel', serif;
     color: white;
-    font-weight: 600;
-    text-align: left;
+    font-size: 60px;
   }
   .foto {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    object-fit: cover;
     
   }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .etiquetas {
+    width: 30px;
+    height: 30px;
+  }
   .section-title {
-    border-bottom: 2px solid #6c63ff;
+    border-bottom: 2px solid #c8a0c8;
     margin-bottom: 15px;
     padding-bottom: 5px;
     font-weight: bold;
@@ -36,6 +51,12 @@ body {
   }
   .list-item {
     margin-bottom: 0px;
+  }
+  ul li {
+    color: black;
+  }
+  li::marker {
+    color: #8c78b4;
   }
   
   
