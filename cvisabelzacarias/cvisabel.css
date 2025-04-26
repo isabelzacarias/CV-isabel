@@ -1,10 +1,10 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #a08cb4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   header {
-    background-color: #54eeee;
-    color: black;
+    background-color: #645078;
+    color: white;
     padding: 20px 0;
     
   }
@@ -17,12 +17,14 @@ body {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
   .nombre {
-    color: black;
+    color: white;
     font-weight: 600;
     text-align: left;
   }
   .foto {
-    text-align: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     
   }
   .section-title {
@@ -33,13 +35,13 @@ body {
     color: #343a40;
   }
   .list-item {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
   
   
   footer {
-    background-color: #54eeee;
-    color: black;
+    background-color: #645078;
+    color: white;
     padding: 20px 0;
     text-align: center;
     
