@@ -55,9 +55,9 @@ a {
 }
 
 .section-title {
+  margin: 40px auto 20px auto;
+  padding: 5px;
   border-bottom: 2px solid #c8a0c8;
-  margin-bottom: 15px;
-  padding-bottom: 5px;
   font-weight: bold;
   color: #343a40;
 }
