@@ -1,69 +1,126 @@
 body {
-    background-color: #a08cb4;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  header {
-    background-color: #645078;
-    color: white;
-    padding: 20px 0;
-    
-  }
-  .cv-container {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 30px;
-    background: rgb(255, 255, 255);
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
+  background-color: #a08cb4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #645078;
+  color: white;
+  padding: 20px 0;
+  border-radius: 15px;
+}
+
+.cv-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.header-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.nombre {
+  font-family: 'Cinzel', serif;
+  color: white;
+  font-size: 40px;
+  text-align: center; 
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.etiquetas {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.section-title {
+  border-bottom: 2px solid #c8a0c8;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #343a40;
+}
+.proyectos {
+  color: purple;
+}
+
+.list-item {
+  margin-bottom: 0px;
+}
+
+ul li {
+  color: black;
+}
+
+li::marker {
+  color: #8c78b4;
+}
+
+footer {
+  background-color: #645078;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* ----- RESPONSIVE ------ */
+@media (max-width: 768px) {
   .header-perfil {
-    display: flex;
-    align-items: center;         
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nombre {
+    font-size: 28px;
+  }
+
+  .foto {
+    width: 120px;
+    height: 120px;
+  }
+
+  .cv-container {
+    margin: 20px 10px;
     padding: 20px;
   }
+}
+
+@media (max-width: 480px) {
   .nombre {
-    font-family: 'Cinzel', serif;
-    color: white;
-    font-size: 60px;
+    font-size: 24px;
   }
+
   .foto {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    
+    width: 100px;
+    height: 100px;
   }
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  .etiquetas {
-    width: 30px;
-    height: 30px;
-  }
+
   .section-title {
-    border-bottom: 2px solid #c8a0c8;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
-    font-weight: bold;
-    color: #343a40;
+    font-size: 18px;
   }
-  .list-item {
-    margin-bottom: 0px;
-  }
+
   ul li {
-    color: black;
+    font-size: 14px;
   }
-  li::marker {
-    color: #8c78b4;
-  }
-  
-  
-  footer {
-    background-color: #645078;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    
-  }
+}
