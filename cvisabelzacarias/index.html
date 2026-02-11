@@ -1,201 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV josefina isabel zacarias perez</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>CV Josefina Isabel Zacarías Pérez</title>
     <link rel="stylesheet" href="cvisabel.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
-
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="cv-container">
+        <!-- HEADER -->
         <header>
-            <div class="header-perfil">
-                <div class="nombre-perfil">
-                    <p class="nombre"><strong> Josefina Isabel Zacarías Pérez</strong></p>
+            <div class="header-content">
+                <img src="./img/isa.jpg" alt="Foto de perfil" class="foto">
+                <div class="header-text">
+                    <h1 class="nombre">Josefina Isabel Zacarías Pérez</h1>
+                    <p class="titulo-profesional">Estudiante de Ingeniería en Software</p>
+                    <div class="contacto-row">
+                        <div class="contacto-item">
+                            <img src="./img/gmail.png" class="etiquetas" alt="email">
+                            <a href="mailto:202300207@upqroo.edu.mx">202300207@upqroo.edu.mx</a>
+                        </div>
+                        <div class="contacto-item">
+                            <img src="./img/llamar.png" class="etiquetas" alt="teléfono">
+                            <span>+52 998-148-3527</span>
+                        </div>
+                        <div class="contacto-item">
+                            <img src="./img/ubicacion.png" class="etiquetas" alt="ubicación">
+                            <span>Cancún, Quintana Roo, México</span>
+                        </div>
+                        <div class="contacto-item">
+                            <img src="./img/github.png" class="etiquetas" alt="github">
+                            <a href="https://github.com/isabelzacarias">github.com/isabelzacarias</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="foto-perfil">
-                    <img src="./img/isa.jpg" alt="foto" class="foto">
-                </div>
-
-            </div>
-
-            <div class="header-contactos">
-                <p class="mb-1"><img src="./img/gmail.png" class="etiquetas" alt="gmail">
-                    <a href="mailto:juanperezg@email.com"> 202300207@upqroo.edu.mx</a>
-                </p>
-                <p class="mb-1"><img src="./img/llamar.png" class="etiquetas" alt="telefono"> 99-81-48-35-27
-                </p>
-                <p class="mb-1"><img src="./img/ubicacion.png" class="etiquetas" alt="ubicacion"> Cancún,
-                    Quintana Roo, México</p>
-                <p class="mb-1"><img src="./img/github.png" class="etiquetas" alt="github"> <a
-                        href="https://github.com/isabelzacarias"> github.com/isabelzacarias</a></p>
             </div>
         </header>
 
-
-
-        <main>
-            <section>
-                <div class="mb-4">
-                    <h5 class="section-title">Perfil profesional</h5>
-                    <p>Soy estudiante de Ingeniería en Software, próximo a cursar el séptimo cuatrimestre de la carrera y
-                        a iniciar mis
-                        estancias profesionales. Tengo conocimientos básicos en programación, bases de datos y
-                        desarrollo web.
-
-                        Me considero una persona responsable, con facilidad para trabajar en equipo y muchas ganas de
-                        adquirir experiencia en el campo profesional.
+        <!-- CUERPO DOS COLUMNAS -->
+        <div class="body-grid">
+            <!-- COLUMNA IZQUIERDA (principal) -->
+            <main class="col-main">
+                <section>
+                    <h2 class="section-title">Perfil profesional</h2>
+                    <p class="perfil-texto">
+                        Estudiante de Ingeniería en Software con experiencia en desarrollo de aplicaciones web y de
+                        escritorio. He participado en proyectos con arquitecturas cliente-servidor, APIs REST y patrones
+                        MVC, utilizando tecnologías como JavaScript, PHP, C# y .NET. Cuento con experiencia en prácticas
+                        profesionales en el área de sistemas, donde colaboré en el desarrollo de software y soporte
+                        técnico. Destaco por mi responsabilidad, capacidad de trabajo en equipo y compromiso con el
+                        aprendizaje continuo.
                     </p>
-                </div>
-            </section>
+                </section>
 
-            <section>
-                <div class="mb-4">
-                    <h5 class="section-title">Formación académica</h5>
-                    <p><strong>Ingeniería en Software</strong><br />
-                        Universidad Politécnica de Quintana Roo (UPQROO)<br />
-                        Agosto 2023 – Actualidad<br />
+                <section>
+                    <h2 class="section-title">Experiencia profesional</h2>
 
-                    </p>
-                </div>
-            </section>
-
-            <section>
-                <div class="mb-4">
-                    <h5 class="section-title">Conocimientos técnicos</h5>
-                    <div class="lista">
-                        <strong>Lenguajes de programación:</strong>
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-titulo">Prácticas Profesionales — Capital 28</h3>
+                                <p class="exp-subtitulo">Área de desarrollo</p>
+                            </div>
+                            <span class="exp-fecha">2025</span>
+                        </div>
+                        <p class="exp-desc">Desarrollo del módulo de Reportes Customizados para el CRM de la empresa,
+                            utilizando Vue.js 2 y TypeScript. El proyecto abarcó desde la configuración del entorno de
+                            desarrollo hasta la integración completa entre frontend y backend.</p>
                         <ul>
-                            <li class="list-item">Java</li>
-                            <li class="list-item">JavaScript</li>
-                            <li class="list-item">C#</li>
-                            <li class="list-item">C++</li>
-                            <li class="list-item">PHP</li>
+                            <li>Configuré el entorno de desarrollo local con WSL, Docker, Node.js y GitLab para la
+                                gestión de repositorios del frontend y la API.</li>
+                            <li>Diseñé y desarrollé la interfaz del módulo, incluyendo panel de filtros, área de
+                                configuración de reportes y zona de visualización de datos.</li>
+                            <li>Implementé múltiples formatos de visualización mediante vue-chartjs: tablas, gráficos de
+                                pastel, gráficos de barras y gráficos lineales, con opción de exportación en PNG y SVG.
+                            </li>
+                            <li>Desarrollé la funcionalidad de reportes guardados y archivados, permitiendo a los
+                                usuarios ejecutar, ver, archivar y eliminar reportes previamente configurados.</li>
                         </ul>
                     </div>
 
-                    <div class="lista">
-                        <strong>Desarrollo web:</strong>
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-titulo">Prácticas Profesionales — The Excellence Collection</h3>
+                                <p class="exp-subtitulo">Área de Sistemas</p>
+                            </div>
+                            <span class="exp-fecha">2025</span>
+                        </div>
+                        <p class="exp-desc">Desarrollo completo del frontend de la aplicación de escritorio "Pases de
+                            Entrada y Salida" utilizando C# y .NET, destinada al control de acceso de artículos y
+                            vehículos en el área de prevención de pérdidas.</p>
                         <ul>
-                            <li class="list-item">HTML</li>
-                            <li class="list-item">CSS</li>
+                            <li>Diseñé wireframes, mockups y la interfaz gráfica completa del sistema, incluyendo
+                                formularios de login, pases de artículos, pases de vehículos y un buscador de pases con
+                                filtros por nombre y folio.</li>
+                            <li>Implementé el dashboard principal con navegación entre módulos y controles de usuario
+                                reutilizables, integrando componentes de terceros (NuGet) para mejorar la experiencia de
+                                uso.</li>
+                            <li>Realicé pruebas de usabilidad con usuarios del área de prevención y elaboré el manual de
+                                usuario y la guía de instalación del sistema.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="section-title">Proyectos académicos</h2>
+
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-titulo">GalaPerfecta — Sistema Cliente-Servidor</h3>
+                            </div>
+                            <span class="exp-fecha">2025</span>
+                        </div>
+                        <p class="exp-desc">Aplicación web para la gestión de eventos con interacción cliente-servidor a
+                            través de una API REST. API en JavaScript, frontend en PHP con MySQL.</p>
+                        <ul>
+                            <li>Módulo de usuario: consulta de paquetes, cotizaciones, pagos e historial.</li>
+                            <li>Módulo de administrador: gestión de eventos, servicios, paquetes y usuarios (CRUD).</li>
+                            <li>Implementación de JWT para autenticación y seguridad.</li>
                         </ul>
                     </div>
 
-                    <div class="lista">
-                        <strong>Frameworks y Librerías:</strong>
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-titulo">Sistema de Gestión de Pizzería — MVC</h3>
+                            </div>
+                            <span class="exp-fecha">2024</span>
+                        </div>
+                        <p class="exp-desc">Aplicación web desarrollada en PHP con el patrón MVC y MySQL.</p>
                         <ul>
-                            <li class="list-item">React</li>
-                            <li class="list-item">Bootstrap</li>
-                            <li class="list-item">.NET</li>
+                            <li>Módulo de usuario: visualización de productos y consulta de información detallada.</li>
+                            <li>Módulo de administrador: gestión del catálogo de productos.</li>
                         </ul>
                     </div>
+                </section>
+            </main>
 
-                    <div class="lista">
-                        <strong>APIs y tecnologías:</strong>
-                        <ul>
-                            <li class="list-item">API Rest</li>
-                            <li class="list-item">JWT (JSON Web Tokens)</li>
-                        </ul>
+            <!-- COLUMNA DERECHA (complementaria) -->
+            <aside class="col-aside">
+                <section>
+                    <h2 class="aside-title">Formación</h2>
+                    <div class="aside-card">
+                        <strong>Ingeniería en Software</strong>
+                        <p>Universidad Politécnica de Quintana Roo</p>
+                        <span class="aside-fecha">2023 – Actualidad</span>
                     </div>
+                </section>
 
-                    <div class="lista">
-                        <strong>Bases de datos:</strong>
-                        <ul>
-                            <li class="list-item">MySQL</li>
-                        </ul>
+                <section>
+                    <h2 class="aside-title">Lenguajes</h2>
+                    <div class="tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">PHP</span>
                     </div>
+                </section>
 
-                    <div class="lista">
-                        <strong>Control de versiones y Herramientas:</strong>
-                        <ul>
-                            <li class="list-item">GitHub</li>
-                            <li class="list-item">Visual Studio</li>
-                            <li class="list-item">VS Code</li>
-                        </ul>
+                <section>
+                    <h2 class="aside-title">Frontend</h2>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Vue.js 2</span>
+                        <span class="tag">Bootstrap</span>
+                        <span class="tag">vue-chartjs</span>
                     </div>
+                </section>
 
-                    <div class="lista">
-                        <strong>Servicios en la nube:</strong>
-                        <ul>
-                            <li class="list-item">AWS (Amazon Web Services)</li>
-                        </ul>
+                <section>
+                    <h2 class="aside-title">Backend y Frameworks</h2>
+                    <div class="tags">
+                        <span class="tag">.NET</span>
+                        <span class="tag">.NET MAUI</span>
+                        <span class="tag">API REST</span>
+                        <span class="tag">JWT</span>
                     </div>
+                </section>
 
-                    <div class="lista">
-                        <strong>Metodologías ágiles:</strong>
-                        <ul>
-                            <li class="list-item">Scrum </li>
-                        </ul>
+                <section>
+                    <h2 class="aside-title">Bases de datos</h2>
+                    <div class="tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">SQL Server</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">SQLite</span>
                     </div>
+                </section>
 
-                </div>
-            </section>
+                <section>
+                    <h2 class="aside-title">Herramientas</h2>
+                    <div class="tags">
+                        <span class="tag">GitHub</span>
+                        <span class="tag">GitLab</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">WSL</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Visual Studio</span>
+                        <span class="tag">AWS</span>
+                    </div>
+                </section>
 
-            <section>
-                <div class="mb-4">
-                    <h5 class="section-title">Experiencia (Prácticas / Proyectos)</h5>
-                    <p class="proyectos"><strong>Proyecto Académico: GalaPerfecta - Sistema Cliente-Servidor
-                            (2025)</strong></p>
-                    <p>Desarrollo de una aplicación web para la gestión de eventos, con un enfoque en la interacción
-                        cliente-servidor a través de una API REST. La API fue creada en JavaScript, y la interfaz del
-                        cliente fue desarrollada en PHP con una base de datos MySQL.</p>
-                    <ul>
-                        <li class="list-item">Usuario: los usuarios podían consultar paquetes para eventos, obtener
-                            cotizaciones, realizar pagos de paquetes y consultar su historial de pagos.</li>
-                    
-                        <li class="list-item">Administrador: los administradores podían crear eventos, servicios y
-                            paquetes nuevos, así como gestionar usuarios mediante operaciones CRUD.</li>
-                    </ul>
-                    <p>Además, se implementó JSON Web Token (JWT) para la validación de usuarios y la seguridad en las
-                        interacciones entre cliente y servidor.</p>
+                <section>
+                    <h2 class="aside-title">Metodologías</h2>
+                    <div class="tags">
+                        <span class="tag">Scrum</span>
+                    </div>
+                </section>
 
-
-                    <p class="proyectos"><strong>Proyecto Académico: Sistema de Gestión de Pizzería - MVC
-                            (2024)</strong></p>
-                    <p>Desarrollo de una aplicación web para la gestión de una pizzería, con dos módulos principales:
-                        usuario y administrador.</p>
-                    <ul>
-                        <li class="list-item">Usuario: permitía visualizar los productos disponibles y consultar
-                            información detallada de cada pizza o producto.</li>
-                    
-                        <li class="list-item">Administrador: ofrecía la opción de agregar nuevos productos al catálogo,
-                            como pizzas u otros productos.</li>
-                    </ul>
-                    <p>El sistema fue desarrollado en PHP utilizando el patrón MVC, y gestionaba los datos a través de
-                        una base de datos MySQL</p>
-
-                    <p class="proyectos"><strong>Prácticas Profesionales: The Excellence Collection - Área de Sistemas (2025)</strong></p>
-                    <p>Realicé mis prácticas profesionales en The Excellence Collection, donde participé en diversas actividades del área de sistemas, incluyendo desarrollo de interfaz y soporte técnico. </p>
-                    <ul>
-                        <li class="list-item"> Diseñé y desarrollé la interfaz gráfica de la aplicación de escritorio “Pases de Entrada y Salida” utilizando C# y .NET, destinada al registro de artículos en el área de prevención.</li>
-
-                        <li class="list-item">Apoyé al equipo de TI en la atención de tickets de soporte técnico, realizando tareas como mantenimiento preventivo y correctivo, instalación de software y asistencia a usuarios.</li>
-                    </ul>
-
-
-                </div>
-            </section>
-
-            <section>
-                <div class="mb-4">
-                    <h5 class="section-title">Idiomas</h5>
-                    <ul class="list-unstyled">
-                        <li><strong>Español:</strong> Nativo</li>
-                    </ul>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <p> 2025 Zacarías Pérez Josefina Isabel.</p>
-        </footer>
+                <section>
+                    <h2 class="aside-title">Idiomas</h2>
+                    <div class="idioma-item">
+                        <span>Español</span>
+                        <span class="idioma-badge">Nativo</span>
+                    </div>
+                    <div class="idioma-item">
+                        <span>Inglés</span>
+                        <span class="idioma-badge">Básico</span>
+                    </div>
+                </section>
+            </aside>
+        </div>
     </div>
 </body>
 
